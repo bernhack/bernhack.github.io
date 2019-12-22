@@ -274,7 +274,7 @@ body {
     fill: #669999;
 }
 
-#devfolio-apply-now:hover {
+#devfolio-apply-now a:hover {
     color: #669999;
 }
 
