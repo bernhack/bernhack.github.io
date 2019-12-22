@@ -270,7 +270,7 @@ body {
     fill: white;
 }
 
-#devfolio-apply-now:hover .logo {
+#devfolio-apply-now a:hover .logo {
     fill: #669999;
 }
 
