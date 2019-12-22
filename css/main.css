@@ -270,13 +270,18 @@ body {
     fill: white;
 }
 
-#devfolio-apply-now a:hover .logo {
+#devfolio-apply-now :hover .logo {
     fill: #669999;
 }
 
-#devfolio-apply-now a:hover {
+#devfolio-apply-now :hover {
     color: #669999;
 }
+
+.applybutton : hover {
+ color : #669999;
+}
+
 
 #devfolio-apply-now {
     display: -ms-flexbox;
