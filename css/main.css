@@ -266,7 +266,7 @@ body {
 	transform: translateY(-50%);
 }
 
-#devfolio-apply-now .logo {
+/* #devfolio-apply-now .logo {
     fill: white;
 }
 
@@ -274,14 +274,25 @@ body {
     fill: #669999;
 }
 
-#devfolio-apply-now :hover {
+#devfolio-apply-now .applybutton:hover {
     color: #669999;
+}  */
+
+#apply .applybutton :hover{
+		color:white;
 }
 
-.applybutton : hover {
- color : #669999;
+#apply:hover{
+	color: white;
 }
 
+#applybutton{
+	color: white;
+}
+
+#apply a:hover{
+	color: white;
+}
 
 #devfolio-apply-now {
     display: -ms-flexbox;
