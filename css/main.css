@@ -278,20 +278,23 @@ body {
     color: #669999;
 }  */
 
-#apply .applybutton :hover{
-		color:white;
+#devfolio-apply-now {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
 }
 
-#apply:hover{
+#devfolio-apply-now a {
+	text-decoration: none;
 	color: white;
 }
 
-#applybutton{
-	color: white;
+#devfolio-apply-now:hover {
+	background-color: #ffffff;
 }
 
-#apply a:hover{
-	color: white;
+#devfolio-apply-now:hover a {
+	color: #669999;
 }
 
 #devfolio-apply-now {
