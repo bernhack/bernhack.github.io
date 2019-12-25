@@ -282,25 +282,39 @@ body {
 	display: -ms-flexbox;
 	display: -webkit-box;
 	display: flex;
+	width: 100%;
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, #34495e 50%, #8e44ad 50%);
+	transition: background-position .5s;
 }
 
 #devfolio-apply-now a {
+	margin: auto;
 	text-decoration: none;
 	color: white;
 }
 
 #devfolio-apply-now:hover {
 	background-color: #ffffff;
-}
-
-#devfolio-apply-now:hover a {
-	color: #669999;
+	box-shadow: #0b2228 0 0 10px;
+	background-position: -100% 0;
 }
 
 #devfolio-apply-now {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
+}
+
+a#CoC-link {
+	border: solid 1px #669999;
+	padding: 5px;
+	transition: 0.2s;
+}
+
+a#CoC-link:hover {
+	background-color: #669999;
+	color: white;
 }
 
 .sponsor-name {
