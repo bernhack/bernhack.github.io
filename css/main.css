@@ -317,6 +317,11 @@ a#CoC-link:hover {
 	color: white;
 }
 
+.tracklink{
+	text-decoration: none;
+	color: white;
+}
+
 .sponsor-name {
 	color: white;
 	font-family: 'Didact Gothic';
